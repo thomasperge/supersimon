@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    background-color: rgb(33, 31, 31);
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -13,13 +17,13 @@
 .containergame {
     width: 100%;
     height: 70vh;
-    background-color: red;
 }
 
-.timer {
+.header {
+    display: flex;
     width: 100%;
     height: 12vh;
-    background-color: yellow;
+    background-color: rgb(57, 57, 57);
 }
 
 .areagame {
@@ -27,10 +31,57 @@
     grid-template-columns: repeat(3, 1fr);
     width: 90vh;
     height: 60vh;
-    background-color: purple;
+    gap: 1vh;
+}
+
+/* Header */
+.header-leaderboard {
+    width: 10%;
+    height: 100%;
+    font-size: 4vh;
+    color: white;
+}
+
+.header-timer {
+    width: 80%;
+    height: 100%;
+    font-size: 8vh;
+    color: white;
+}
+
+.header-score {
+    width: 10%;
+    height: 100%;
+    font-size: 4vh;
+    color: white;
 }
 
 /* Button Game */
 .buttonColorGame {
-    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.lightbluecolor {
+    background-color: rgb(88, 88, 255);
+}
+
+.yellowcolor {
+    background-color: yellow;
+}
+
+.pinkcolor {
+    background-color: rgb(255, 0, 221);
+}
+
+.darkbluecolor {
+    background-color: rgb(0, 0, 202);
+}
+
+.orangecolor {
+    background-color: rgb(255, 183, 0);
+}
+
+.greencolor {
+    background-color: rgb(26, 255, 0);
 }
