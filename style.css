@@ -21,3 +21,16 @@
     height: 12vh;
     background-color: yellow;
 }
+
+.areagame {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90vh;
+    height: 60vh;
+    background-color: purple;
+}
+
+/* Button Game */
+.buttonColorGame {
+    background-color: white;
+}
